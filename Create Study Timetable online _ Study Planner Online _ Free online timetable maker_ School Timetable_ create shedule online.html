@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<!-- saved from url=(0051)https://einsty.com/app/study-timetable-planner.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Create Study Timetable online | Study Planner Online | Free online timetable maker| School Timetable| create shedule online</title>
+	<link href="./Create Study Timetable online _ Study Planner Online _ Free online timetable maker_ School Timetable_ create shedule online_files/style.css" rel="stylesheet">
+    <style>
+	
+	body {
+		font-family: "Helvetica Neue", Helvetica, sans-serif;  
+		background-color: #ecf0f1;
+		text-align: left;
+		margin: 10;
+	}
+    html {
+      font-family: sans-serif;
+	  font-size: large;
+	  
+    }
+
+	#table {
+		display: table;
+		padding: 5px;
+	}
+	.tr {
+		display: table-row;
+		padding: 5px;
+	}
+	.td {
+		display: table-cell;
+		padding: 5px;
+		width: 150px;
+		border: #000000 solid 1px;
+		margin: 5px;
+	}
+
+    #id1,#id3,#id5,#id7 {
+	  background-color: #f5a11b;
+	}
+	 #id2,#id4,#id6 {
+	  background-color: #cccccc;
+	}
+	
+	 #id8,#id10,#id12,#id14,#id16,#id18,#id20,#id22,#id24 {
+	  background-color: #f5a11b;
+	}
+	
+	 #id9,#id11,#id13,#id15,#id17,#id19,#id21,#id23,#id25 {
+	  background-color: #cccccc;
+	}
+	
+	#tableWrapper{
+		display: flex;
+	}
+	#table{
+		width: 100%;
+	}
+	.sidebar{
+		flex-grow: 1;
+		margin-left:20px;
+	}
+	
+	.button {
+	  border: none;
+	  color: white;
+	  padding: 15px 32px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 16px;
+	  margin: 4px 2px;
+	  cursor: pointer;
+	}
+
+	.button2,.button1 {background-color: #008CBA;} 
+	
+	.td:hover{
+		background: #cccccc; 
+	}
+	
+	.footer{
+		width: 100%;
+		height: 100%;
+		top:0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		justify-content: center;
+		margin: auto;
+		text-align: center;
+		margin: auto;
+	}
+	
+    </style>
+  <meta http-equiv="origin-trial" content="AzoawhTRDevLR66Y6MROu167EDncFPBvcKOaQispTo9ouEt5LvcBjnRFqiAByRT+2cDHG1Yj4dXwpLeIhc98/gIAAACFeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjYxMjk5MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A6+nc62kbJgC46ypOwRsNW6RkDn2x7tgRh0wp7jb3DtFF7oEhu1hhm4rdZHZ6zXvnKZLlYcBlQUImC4d3kKihAcAAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjYxMjk5MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A/9La288e7MDEU2ifusFnMg1C2Ij6uoa/Z/ylwJIXSsWfK37oESIPbxbt4IU86OGqDEPnNVruUiMjfKo65H/CQwAAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjYxMjk5MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><link rel="preload" href="./Create Study Timetable online _ Study Planner Online _ Free online timetable maker_ School Timetable_ create shedule online_files/f.txt" as="script"><script type="text/javascript" src="./Create Study Timetable online _ Study Planner Online _ Free online timetable maker_ School Timetable_ create shedule online_files/f.txt"></script><link rel="preload" href="./Create Study Timetable online _ Study Planner Online _ Free online timetable maker_ School Timetable_ create shedule online_files/f(1).txt" as="script"><script type="text/javascript" src="./Create Study Timetable online _ Study Planner Online _ Free online timetable maker_ School Timetable_ create shedule online_files/f(1).txt"></script></head>
+  <body>
+	<div class="container-fluid">
+	<div class="menubuttons">
+		<h3>TIMETABLE PLANNER</h3>	
+		<button class="btn btn-outline-primary btn-sm" onclick="saveData()">Save</button>
+		<button class="btn btn-outline-primary btn-sm" onclick="bold()"><b>Bold</b></button>
+		<button class="btn btn-outline-primary btn-sm" onclick="italics()"><i>Italics</i></button>
+		<button class="btn btn-outline-primary btn-sm" onclick="underline()"><u>Underline</u></button>
+		<button class="btn btn-outline-primary btn-sm" onclick="lineThrough()"><s>LineThrough</s></button>
+		<button class="btn btn-outline-primary btn-sm" onclick="h1()">H1</button>
+		<button class="btn btn-outline-primary btn-sm" onclick="h2()">H2</button>
+		<button class="btn btn-outline-primary btn-sm" onclick="h3()">H3</button>
+		<button class="btn btn-outline-primary btn-sm" onclick="highlightRed()" style="background-color: red;color: white;">Highlight</button>
+		<button class="btn btn-outline-primary btn-sm" onclick="highlightYellow()" style="background-color: yellow;color: black;">Highlight</button>
+		<button class="btn btn-outline-primary btn-sm" onclick="highlightBlue()" style="background-color: blue;color: white;">Highlight</button>
+		<button class="btn btn-outline-primary btn-sm" onclick="removeFormating()">Remove Format</button>	
+		<button class="btn btn-outline-primary btn-sm" onclick="resetTable()">Reset</button>
+		<button class="btn btn-outline-primary btn-sm" onclick="printTable()">Print</button>
+		<span id="tableTitle">  [ 9:51:43 pm Wed 3 August ]  </span>
+	</div>
+	
+	<div id="tableWrapper">	
+    <div id="table">
+      <div class="tr">
+        <div class="td">&nbsp;</div>
+        <div class="td" id="id1">Mon</div>
+        <div class="td" id="id2">Tues</div>
+        <div class="td" id="id3">Wed</div>
+        <div class="td" id="id4">Thurs</div>
+        <div class="td" id="id5">Fri</div>
+        <div class="td" id="id6">Sat</div>
+        <div class="td" id="id7">Sun</div>
+      </div>
+      <div class="tr">
+        <div class="td" contenteditable="true" id="id8">6.45am - 7.30am</div>
+        <div class="td" contenteditable="true" id="mon7am">Aptitude</div>
+        <div class="td" contenteditable="true" id="tue7am">&nbsp;</div>
+        <div class="td" contenteditable="true" id="wed7am"></div>
+        <div class="td" contenteditable="true" id="thu7am"></div>
+        <div class="td" contenteditable="true" id="fri7am"></div>
+        <div class="td" contenteditable="true" id="sat7am"></div>
+        <div class="td" contenteditable="true" id="sun7am"></div>
+      </div>
+       <div class="tr">
+        <div class="td" contenteditable="true" id="id9">8am - 5.00pm</div>
+        <div class="td" contenteditable="true" id="mon8am">Classes</div>
+        <div class="td" contenteditable="true" id="tue8am"></div>
+        <div class="td" contenteditable="true" id="wed8am"></div>
+        <div class="td" contenteditable="true" id="thu8am"></div>
+        <div class="td" contenteditable="true" id="fri8am"></div>
+        <div class="td" contenteditable="true" id="sat8am"></div>
+        <div class="td" contenteditable="true" id="sun8am"></div>
+      </div>
+       <div class="tr">
+        <div class="td" contenteditable="true" id="id10">5.30pm - 7.00pm</div>
+        <div class="td" contenteditable="true" id="mon9am">DSA</div>
+        <div class="td" contenteditable="true" id="tue9am"></div>
+        <div class="td" contenteditable="true" id="wed9am"></div>
+        <div class="td" contenteditable="true" id="thu9am"></div>
+        <div class="td" contenteditable="true" id="fri9am"></div>
+        <div class="td" contenteditable="true" id="sat9am"></div>
+        <div class="td" contenteditable="true" id="sun9am"></div>
+      </div>
+       <div class="tr">
+        <div class="td" contenteditable="true" id="id11">8.00pm-10pm</div>
+        <div class="td" contenteditable="true" id="mon10am">Placements</div>
+        <div class="td" contenteditable="true" id="tue10am"></div>
+        <div class="td" contenteditable="true" id="wed10am"></div>
+        <div class="td" contenteditable="true" id="thu10am"></div>
+        <div class="td" contenteditable="true" id="fri10am"></div>
+        <div class="td" contenteditable="true" id="sat10am"></div>
+        <div class="td" contenteditable="true" id="sun10am"></div>
+      </div>
+	   <div class="tr">
+        <div class="td" contenteditable="true" id="id12">10.30pm - 11pm</div>
+        <div class="td" contenteditable="true" id="mon11am">Reasoning</div>
+        <div class="td" contenteditable="true" id="tue11am"></div>
+        <div class="td" contenteditable="true" id="wed11am"></div>
+        <div class="td" contenteditable="true" id="thu11am"></div>
+        <div class="td" contenteditable="true" id="fri11am"></div>
+        <div class="td" contenteditable="true" id="sat11am"></div>
+        <div class="td" contenteditable="true" id="sun11am"></div>
+      </div>
+	   <div class="tr">
+        <div class="td" contenteditable="true" id="id13">12pm - 1pm</div>
+        <div class="td" contenteditable="true" id="mon12pm"></div>
+        <div class="td" contenteditable="true" id="tue12pm"></div>
+        <div class="td" contenteditable="true" id="wed12pm"></div>
+        <div class="td" contenteditable="true" id="thu12pm"></div>
+        <div class="td" contenteditable="true" id="fri12pm"></div>
+        <div class="td" contenteditable="true" id="sat12pm"></div>
+        <div class="td" contenteditable="true" id="sun12pm"></div>
+      </div>
+	   <div class="tr">
+        <div class="td" contenteditable="true" id="id14">1pm - 2pm</div>
+       <div class="td" contenteditable="true" id="mon1pm"></div>
+        <div class="td" contenteditable="true" id="tue1pm"></div>
+        <div class="td" contenteditable="true" id="wed1pm"></div>
+        <div class="td" contenteditable="true" id="thu1pm"></div>
+        <div class="td" contenteditable="true" id="fri1pm"></div>
+        <div class="td" contenteditable="true" id="sat1pm"></div>
+        <div class="td" contenteditable="true" id="sun1pm"></div>
+      </div>
+	   <div class="tr">
+        <div class="td" contenteditable="true" id="id15">2pm - 3pm</div>
+        <div class="td" contenteditable="true" id="mon2pm"></div>
+        <div class="td" contenteditable="true" id="tue2pm"></div>
+        <div class="td" contenteditable="true" id="wed2pm"></div>
+        <div class="td" contenteditable="true" id="thu2pm"></div>
+        <div class="td" contenteditable="true" id="fri2pm"></div>
+        <div class="td" contenteditable="true" id="sat2pm"></div>
+        <div class="td" contenteditable="true" id="sun2pm"></div>
+      </div>
+	   <div class="tr">
+        <div class="td" contenteditable="true" id="id16">3pm - 4pm</div>
+        <div class="td" contenteditable="true" id="mon3pm"></div>
+        <div class="td" contenteditable="true" id="tue3pm"></div>
+        <div class="td" contenteditable="true" id="wed3pm"></div>
+        <div class="td" contenteditable="true" id="thu3pm"></div>
+        <div class="td" contenteditable="true" id="fri3pm"></div>
+        <div class="td" contenteditable="true" id="sat3pm"></div>
+        <div class="td" contenteditable="true" id="sun3pm"></div>
+      </div>
+	   <div class="tr">
+        <div class="td" contenteditable="true" id="id17">4pm - 5pm</div>
+        <div class="td" contenteditable="true" id="mon4pm"></div>
+        <div class="td" contenteditable="true" id="tue4pm"></div>
+        <div class="td" contenteditable="true" id="wed4pm"></div>
+        <div class="td" contenteditable="true" id="thu4pm"></div>
+        <div class="td" contenteditable="true" id="fri4pm"></div>
+        <div class="td" contenteditable="true" id="sat4pm"></div>
+        <div class="td" contenteditable="true" id="sun4pm"></div>
+      </div>
+	   <div class="tr">
+        <div class="td" contenteditable="true" id="id18">5pm - 6pm</div>
+        <div class="td" contenteditable="true" id="mon5pm"></div>
+        <div class="td" contenteditable="true" id="tue5pm"></div>
+        <div class="td" contenteditable="true" id="wed5pm"></div>
+        <div class="td" contenteditable="true" id="thu5pm"></div>
+        <div class="td" contenteditable="true" id="fri5pm"></div>
+        <div class="td" contenteditable="true" id="sat5pm"></div>
+        <div class="td" contenteditable="true" id="sun5pm"></div>
+      </div>
+	   <div class="tr">
+        <div class="td" contenteditable="true" id="id19">6pm - 7pm</div>
+        <div class="td" contenteditable="true" id="mon6pm"></div>
+        <div class="td" contenteditable="true" id="tue6pm"></div>
+        <div class="td" contenteditable="true" id="wed6pm"></div>
+        <div class="td" contenteditable="true" id="thu6pm"></div>
+        <div class="td" contenteditable="true" id="fri6pm"></div>
+        <div class="td" contenteditable="true" id="sat6pm"></div>
+        <div class="td" contenteditable="true" id="sun6pm"></div>
+      </div>
+	   <div class="tr">
+        <div class="td" contenteditable="true" id="id20">7pm - 8pm</div>
+        <div class="td" contenteditable="true" id="mon7pm"></div>
+        <div class="td" contenteditable="true" id="tue7pm"></div>
+        <div class="td" contenteditable="true" id="wed7pm"></div>
+        <div class="td" contenteditable="true" id="thu7pm"></div>
+        <div class="td" contenteditable="true" id="fri7pm"></div>
+        <div class="td" contenteditable="true" id="sat7pm"></div>
+        <div class="td" contenteditable="true" id="sun7pm"></div>
+      </div>
+	   <div class="tr">
+        <div class="td" contenteditable="true" id="id21">8pm - 9pm</div>
+        <div class="td" contenteditable="true" id="mon8pm"></div>
+        <div class="td" contenteditable="true" id="tue8pm"></div>
+        <div class="td" contenteditable="true" id="wed8pm"></div>
+        <div class="td" contenteditable="true" id="thu8pm"></div>
+        <div class="td" contenteditable="true" id="fri8pm"></div>
+        <div class="td" contenteditable="true" id="sat8pm"></div>
+        <div class="td" contenteditable="true" id="sun8pm"></div>
+      </div>
+	   <div class="tr">
+        <div class="td" contenteditable="true" id="id22">9pm - 10pm</div>
+        <div class="td" contenteditable="true" id="mon9pm"></div>
+        <div class="td" contenteditable="true" id="tue9pm"></div>
+        <div class="td" contenteditable="true" id="wed9pm" style="background-color: rgb(245, 161, 27);"></div>
+        <div class="td" contenteditable="true" id="thu9pm"></div>
+        <div class="td" contenteditable="true" id="fri9pm"></div>
+        <div class="td" contenteditable="true" id="sat9pm"></div>
+        <div class="td" contenteditable="true" id="sun9pm"></div>
+      </div>
+	   <div class="tr">
+        <div class="td" contenteditable="true" id="id23">10pm - 11pm</div>
+        <div class="td" contenteditable="true" id="mon10pm"></div>
+        <div class="td" contenteditable="true" id="tue10pm"></div>
+        <div class="td" contenteditable="true" id="wed10pm"></div>
+        <div class="td" contenteditable="true" id="thu10pm"></div>
+        <div class="td" contenteditable="true" id="fri10pm"></div>
+        <div class="td" contenteditable="true" id="sat10pm"></div>
+        <div class="td" contenteditable="true" id="sun10pm"></div>
+      </div>
+	   <div class="tr">
+        <div class="td" contenteditable="true" id="id24"></div>
+        <div class="td" contenteditable="true" id="mon11pm"></div>
+        <div class="td" contenteditable="true" id="tue11pm"></div>
+        <div class="td" contenteditable="true" id="wed11pm"></div>
+        <div class="td" contenteditable="true" id="thu11pm"></div>
+        <div class="td" contenteditable="true" id="fri11pm"></div>
+        <div class="td" contenteditable="true" id="sat11pm"></div>
+        <div class="td" contenteditable="true" id="sun11pm"></div>
+      </div>
+	   <div class="tr">
+        <div class="td" contenteditable="true" id="id25"></div>
+        <div class="td" contenteditable="true" id="mon12am"></div>
+        <div class="td" contenteditable="true" id="tue12am"></div>
+        <div class="td" contenteditable="true" id="wed12am"></div>
+        <div class="td" contenteditable="true" id="thu12am"></div>
+        <div class="td" contenteditable="true" id="fri12am"></div>
+        <div class="td" contenteditable="true" id="sat12am"></div>
+        <div class="td" contenteditable="true" id="sun12am"></div>
+      </div>
+	 	  
+    </div>
+	</div>
+	</div>
+	
+	<div class="footer container-fluid" style="height: auto !important;">
+		<div id="ads" style="height: auto !important;">
+			 Ads	
+			 <!-- Display Ads -->
+			 <ins class="adsbygoogle" style="display: block; height: 280px;" data-ad-client="ca-pub-3188316151602635" data-ad-slot="4529958751" data-ad-format="auto" data-full-width-responsive="true" data-adsbygoogle-status="done" data-ad-status="filled"><ins id="aswift_1_expand" tabindex="0" title="Advertisement" aria-label="Advertisement" style="border: none; height: 280px; width: 1200px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-table;"><ins id="aswift_1_anchor" style="border: none; height: 280px; width: 1200px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: block; overflow: visible;"><iframe id="aswift_1" name="aswift_1" style="left:0;position:absolute;top:0;border:0;width:1200px;height:280px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="1200" height="280" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="./Create Study Timetable online _ Study Planner Online _ Free online timetable maker_ School Timetable_ create shedule online_files/ads.html" data-google-container-id="a!2" data-google-query-id="CJuzz7KJq_kCFcgolgod7xgPKQ" data-load-complete="true"></iframe></ins></ins></ins>
+			<script src="./Create Study Timetable online _ Study Planner Online _ Free online timetable maker_ School Timetable_ create shedule online_files/f(2).txt"></script><script src="./Create Study Timetable online _ Study Planner Online _ Free online timetable maker_ School Timetable_ create shedule online_files/f(3).txt" id="google_shimpl"></script><script>
+				 (adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+		</div>
+		<p>Study Timetable maker also known as schedule planner is an online tool that helps you create your own timetable for study purpose. You can create a new timetable by clicking on each cell and specify the subject that you want to study at that time. To save the Timetable click the save button and it will be saved in your computer browser. To reset and start again click reset button. You can even print this timetable by clicking print button at the top. In order to access the saved timetable you do not have to do anything but visit the same URL and time table page again. Einsty does not store your any information on it's server all the information saved in this time table is saved in your PC itself. </p>
+		<a href="https://einsty.com/about-us/">About Us</a> |
+		<a href="https://einsty.com/terms-of-use/">Terms Of Use</a> |
+		<a href="https://einsty.com/privacy-policy/">Privacy Policy</a> |
+		<a href="https://einsty.com/contact-us/">Contact Us</a> 
+	</div>
+		
+	<script>			
+		function printTable(){				
+			  win = window.open();
+			  var htmlData= '<html><head><style>'+document.getElementsByTagName('style')[0].innerHTML +'</style></head><body>'+ document.getElementById("tableWrapper").innerHTML+ '</body></html>'
+			  win.document.write(htmlData);
+			  win.print();
+		}
+		
+	  
+	    function saveData(){				
+			localStorage.setItem("timetable", document.getElementById("tableWrapper").innerHTML);			
+		}
+		
+		document.addEventListener('keydown', function(e) {
+		  saveData();
+		});
+		
+		setInterval(function(){
+		
+			var days = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+			var months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+			var now = new Date();
+			var day = days[ now.getDay() ];
+			var month = months[ now.getMonth() ];
+			var nowDate = now.getDate();
+
+			var dateTime = formatAMPM(now);
+			
+			function setDateTimeOnTable(){
+				return document.getElementById('tableTitle').innerHTML = '  [ '+dateTime+' ' +  day+' ' + nowDate +' ' +month +' ]  ';
+			}
+
+			function setCurrentCell(){
+				var getCurrentDivIdBasedOnDayTime = document.getElementById(day.toLowerCase()+dateTime.split(':')[0]+dateTime.split(' ')[1]);
+				if(getCurrentDivIdBasedOnDayTime && getCurrentDivIdBasedOnDayTime.style.backgroundColor !=null){
+					getCurrentDivIdBasedOnDayTime.style.backgroundColor ='#f5a11b';
+				}				
+			}
+			
+			setDateTimeOnTable();
+			setCurrentCell();
+			
+			// format date time
+			function formatAMPM(date) {
+			  var hours = date.getHours();
+			  var minutes = date.getMinutes();
+			  var seconds = date.getSeconds();
+			  var ampm = hours >= 12 ? 'pm' : 'am';
+			  hours = hours % 12;
+			  hours = hours ? hours : 12; // the hour '0' should be '12'
+			  minutes = minutes < 10 ? '0'+minutes : minutes;
+			  var strTime = hours + ':' + minutes+ ':' +seconds+' ' + ampm;
+			  return strTime;
+				}
+			}, 1000);					
+			 
+			var onLoadCompleted=false; 
+			window.onload = function() {			 
+				  // Retrieve
+				 if(localStorage.getItem("timetable")){
+					 document.getElementById("tableWrapper").innerHTML = localStorage.getItem("timetable");	
+				 }				
+				 onLoadCompleted =true;
+			};
+			
+			function resetTable(){
+				var r = confirm("Are you sure, You want to reset and delete everything?");
+				if (r == true) {
+					  localStorage.removeItem('timetable');					 
+					  location.reload();
+				}			
+			}
+
+			function bold(){
+			   textTransform("B","b");
+			}
+
+			function italics(){
+				textTransform("I","i");
+			}
+
+			function underline(){
+				textTransform("U","u");
+			}
+
+			function lineThrough(){
+				textTransform("S","s");
+			}
+			
+			function h1(){
+				textTransform("H1","h1");	
+			}
+
+			function h2(){
+				textTransform("H2","h2");	
+				
+			}
+
+			function h3(){
+			   textTransform("H3","h3");		
+			}
+			
+			function textTransform(tag,elementName){
+				let selection = window.getSelection();
+				let range = selection.getRangeAt(0);
+				
+				if(range.collapsed == true){
+					alert("Please select content to apply format");
+					return;
+				}
+			
+				if(range.toString().length ==0){
+					return;
+				}
+				if(selection.anchorNode.tagName == tag || selection.anchorNode.parentElement.tagName == tag ){
+					let replaceWithNode = selection.anchorNode.innerText !=undefined ?selection.anchorNode.innerText : selection.getRangeAt(0).toString();
+				
+					if( selection.anchorNode.parentElement.tagName == tag && selection.focusNode.parentElement.tagName == tag){	
+						let parentElement = selection.anchorNode.parentElement;
+						let parentElementText = selection.anchorNode.parentElement.innerText;
+
+							let NewNodeX, NewNodeY,NewNodeZ;
+							let ElementX, ElementY, ElementZ;
+							
+							if(range.startOffset==0){
+								NewNodeX = document.createTextNode(range.toString());
+								ElementX=NewNodeX;
+								
+								NewNodeY = document.createTextNode(range.commonAncestorContainer.textContent).splitText(range.endOffset);
+								ElementY = document.createElement(elementName);
+								ElementY.append(NewNodeY);
+								
+							}else if(range.startOffset>0 && range.endOffset<range.commonAncestorContainer.length){
+								
+								NewNodeX = document.createTextNode(range.commonAncestorContainer.textContent);
+								ElementX = document.createElement(elementName);
+								ElementX.append(NewNodeX);
+								
+								NewNodeY = NewNodeX.splitText(range.startOffset);
+								ElementY=NewNodeY;
+								
+								NewNodeZ = NewNodeY.splitText(range.endOffset-range.startOffset);
+								ElementZ = document.createElement(elementName);
+								ElementZ.append(NewNodeZ);
+							}else{
+								NewNodeY = selection.anchorNode;
+								NewNodeY.splitText(selection.focusOffset<selection.anchorOffset?selection.focusOffset:selection.anchorOffset);				    
+								ElementY = document.createElement(elementName);
+								ElementY.append(NewNodeY);	
+
+								NewNodeZ = document.createTextNode(range.toString());	                  
+								ElementZ =NewNodeZ;	
+								
+							}
+							
+							range.deleteContents();
+							selection.removeAllRanges();
+							parentElementNewRange = document.createRange();
+							parentElementNewRange.selectNode(parentElement);
+
+							if(ElementZ){
+								parentElementNewRange.insertNode(ElementZ);	
+							}
+							
+							if(ElementY){
+								parentElementNewRange.insertNode(ElementY);
+							}
+
+							if(ElementX){
+								parentElementNewRange.insertNode(ElementX);
+							}				
+						
+							parentElement.remove();
+					
+				
+					}else{
+						if(selection.anchorNode.tagName == tag){
+							selection.anchorNode.replaceWith(replaceWithNode);	
+							selection.removeAllRanges();
+							const newRange = document.createRange();
+							newRange.setStart(range.commonAncestorContainer, range.startOffset);
+							newRange.setEnd(range.commonAncestorContainer, range.endOffset+1);
+							selection.addRange(newRange);	
+						}
+						
+						if( selection.anchorNode.parentElement.tagName != selection.focusNode.parentElement.tagName){
+							let oldConent = document.createTextNode(range.toString());
+							let newElement = document.createElement(elementName);
+							
+							newElement.append(oldConent);
+							range.deleteContents();
+							range.insertNode(newElement);
+							selection.removeAllRanges();
+							
+							const newRange = document.createRange();
+							newRange.setStart(newElement, 0);
+							newRange.setEnd(newElement, 1);
+							selection.addRange(newRange);
+						}		    	
+					}			
+					
+				}else{
+					let oldConent = document.createTextNode(range.toString());
+					let newElement = document.createElement(elementName);
+					
+					newElement.append(oldConent);
+					range.deleteContents();
+					range.insertNode(newElement);
+					selection.removeAllRanges();
+					
+					const newRange = document.createRange();
+					newRange.setStart(newElement, 0);
+					newRange.setEnd(newElement, 1);
+					selection.addRange(newRange);
+				}
+
+			}
+			
+		function highlightRed(){
+			const selection = window.getSelection();
+			const selectionRange = selection.getRangeAt(0);
+			if(selectionRange.collapsed == true){
+				alert("Please select content to highlight Red");
+				return;
+			}			
+			const range = document.createRange();			
+			const newParent = document.createElement('span');
+			newParent.style.cssText = 'color:white;background-color:red;';
+
+			range.selectNode(selection.baseNode);
+			range.surroundContents(newParent);
+		}
+		
+		function highlightYellow(){
+			const selection = window.getSelection();	
+			const selectionRange = selection.getRangeAt(0);
+			if(selectionRange.collapsed == true){
+				alert("Please select content to highlight Yellow");
+				return;
+			}
+			
+			const range = document.createRange();
+			const newParent = document.createElement('span');
+			newParent.style.cssText = 'color:black;background-color:yellow;';
+
+			range.selectNode(selection.baseNode);
+			range.surroundContents(newParent);
+		}
+		
+		function highlightBlue(){
+			const selection = window.getSelection();
+			const selectionRange = selection.getRangeAt(0);
+			if(selectionRange.collapsed == true){
+				alert("Please select content to highlight Blue");
+				return;
+			}
+						
+			const range = document.createRange();
+			const newParent = document.createElement('span');
+			newParent.style.cssText = 'color:white;background-color:blue;';
+
+			range.selectNode(selection.baseNode);
+			range.surroundContents(newParent);
+		}	
+		
+		function removeFormating(){
+			let range = window.getSelection().getRangeAt(0);
+			let rangeText = range.toString();
+			
+			if(range.collapsed == true){
+				alert("Please select content to remove format");
+				return;
+			}
+			const content = document.createTextNode(rangeText);
+			let parent = range.commonAncestorContainer.parentElement;
+			let listOfIDS = ["mon","tue","wed","thu","fri","sat", "sun"];
+			while(parent && parent.nodeName !="DIV"){
+				parent = parent.parentNode;
+				if(listOfIDS.indexOf(parent.id) !=-1){
+					parent = document.getElementById(parent.id);
+					break;
+				}
+			}			
+			parent.innerHTML="";
+			
+			parent.appendChild(content);
+			
+		}
+		
+		let onPaste = function(e) {
+			e.preventDefault();
+			const pastedText = (e.clipboardData)
+				? (e.originalEvent || e).clipboardData.getData('text/plain')
+				: (window.clipboardData ? window.clipboardData.getData('Text') : '');
+			
+			if (document.queryCommandSupported('insertText')) {
+				document.execCommand('insertText', false, pastedText);
+			} else {
+				
+				const range = document.getSelection().getRangeAt(0);
+				range.deleteContents();
+
+				const textNode = document.createTextNode(pastedText);
+				range.insertNode(textNode);
+				range.selectNodeContents(textNode);
+				range.collapse(false);
+
+				const selection = window.getSelection();
+				selection.removeAllRanges();
+				selection.addRange(range);
+			}
+			saveData();
+		};
+		
+		var elements = document.getElementsByClassName("td");
+		Array.from(elements).forEach(function(element) {
+		  element.addEventListener('paste', onPaste);
+		});		
+		
+		// disable enter key
+		document.addEventListener('keydown', (evt) => {
+			if (evt.keyCode === 13) {
+				evt.preventDefault();
+			}
+		});
+
+	
+		
+	</script>
+      <script type="text/javascript">
+		function downloadJSAtOnload() {
+		var element = document.createElement("script");
+		element.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3188316151602635";
+		document.body.appendChild(element);
+		}
+		if (window.addEventListener)
+		window.addEventListener("load", downloadJSAtOnload, false);
+		else if (window.attachEvent)
+		window.attachEvent("onload", downloadJSAtOnload);
+		else window.onload = downloadJSAtOnload;
+	  </script>
+  
+
+
+<script src="./Create Study Timetable online _ Study Planner Online _ Free online timetable maker_ School Timetable_ create shedule online_files/f(4).txt" data-checked-head="true"></script><ins class="adsbygoogle adsbygoogle-noablate" data-adsbygoogle-status="done" style="display: none !important;" data-ad-status="unfilled"><ins id="aswift_0_expand" tabindex="0" title="Advertisement" aria-label="Advertisement" style="border: none; height: 0px; width: 0px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-table;"><ins id="aswift_0_anchor" style="border: none; height: 0px; width: 0px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: block;"><iframe id="aswift_0" name="aswift_0" style="left:0;position:absolute;top:0;border:0;width:undefinedpx;height:undefinedpx;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="./Create Study Timetable online _ Study Planner Online _ Free online timetable maker_ School Timetable_ create shedule online_files/ads(1).html" data-google-container-id="a!1" data-load-complete="true"></iframe></ins></ins></ins><iframe src="./Create Study Timetable online _ Study Planner Online _ Free online timetable maker_ School Timetable_ create shedule online_files/aframe.html" width="0" height="0" style="display: none;"></iframe></body><iframe id="google_esf" name="google_esf" src="./Create Study Timetable online _ Study Planner Online _ Free online timetable maker_ School Timetable_ create shedule online_files/zrt_lookup.html" style="display: none;"></iframe></html>
